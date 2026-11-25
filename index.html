@@ -8,7 +8,14 @@
 <title>RIGRA | Soluções Integradas em TI</title>
 <link rel="icon" href="logo.png">
 <link rel="stylesheet" href="style.css">
-<script src="app.js" defer></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() { window.dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', 'G-GQ581GVFDG');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GQ581GVFDG"></script>
+<script src="app-ga4.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#inicio">Saltar para o conteúdo</a>
@@ -34,7 +41,7 @@
 </div></div></section>
 <section class="section wrap registration" id="inscricao"><div><p class="eyebrow">INSCRIÇÕES</p><h2>Reserve o seu horário de aulas</h2><p>Escolha o pacote e indique a sua disponibilidade. Ao continuar, o WhatsApp abre com o pedido preenchido. A RIGRA confirma consigo o horário, o preço e a disponibilidade após o envio.</p></div>
 <form id="enrol"><div class="fields"><label>Nome completo<input name="nome" autocomplete="name" maxlength="100" required></label><label>Telemóvel<input name="telefone" type="tel" inputmode="tel" autocomplete="tel" pattern="(\+?258[ ]?)?8[0-9 ]{8,12}" placeholder="Ex. 84 123 4567" title="Número de telemóvel moçambicano, com ou sem +258" required></label><label>Bairro<input name="bairro" maxlength="80" placeholder="Em Nacala-Porto" required></label><label>Horário preferido<select name="horario" required><option value="">Seleccione um horário</option><option>Manhã</option><option>Tarde</option><option>Fim do dia</option><option>A combinar</option></select></label><label class="full">Pacote<select name="pacote" required><option value="">Seleccione o pacote</option><option value="essencial">Informática Essencial</option><option value="office">Office e Produtividade</option><option value="personalizado">Aulas Personalizadas</option></select></label><label class="full">O que gostaria de aprender? <span>(opcional)</span><textarea name="notas" rows="3" maxlength="350"></textarea></label></div>
-<button class="button red" type="submit">Continuar no WhatsApp</button><p class="feedback" id="feedback" role="status" hidden>Confirme o envio da mensagem no WhatsApp. <a id="retry" rel="noopener" target="_blank">Abrir a mensagem</a></p></form></section>
+<button class="button red" type="submit">Continuar no WhatsApp</button><p class="feedback" id="feedback" role="status" hidden>Confirme o envio da mensagem no WhatsApp. <button id="retry" type="button">Abrir a mensagem</button></p></form></section>
 </main>
-<footer id="contactos"><div class="wrap footer-grid"><div><a class="brand" href="#inicio"><span class="mark"><img src="logo.png" alt=""></span><span>RIGRA<small>SOLUÇÕES INTEGRADAS EM TI</small></span></a><p>Nacala-Porto, Moçambique</p></div><div><h2>Fale com a RIGRA</h2><a href="tel:+258870777666">+258 87 077 7666</a></div><a class="button red" href="https://wa.me/258870777666" target="_blank" rel="noopener">Conversar no WhatsApp</a></div></footer>
+<footer id="contactos"><div class="wrap footer-grid"><div><a class="brand" href="#inicio"><span class="mark"><img src="logo.png" alt=""></span><span>RIGRA<small>SOLUÇÕES INTEGRADAS EM TI</small></span></a><p>Nacala-Porto, Moçambique</p></div><div><h2>Fale com a RIGRA</h2><a href="tel:+258870777666">+258 87 077 7666</a></div><a class="button red" data-whatsapp-service="Contacto geral" href="https://wa.me/258870777666" target="_blank" rel="noopener">Conversar no WhatsApp</a></div></footer>
 </body></html>
